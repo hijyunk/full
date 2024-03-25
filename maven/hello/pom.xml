@@ -1,12 +1,12 @@
 <project>
     <groupId>com.moon</groupId>
-    <artifactId>HelloWorld</artifactId>
-    <modelVersion>4.0.0</modelVersion>
+    <artifactId>HelloWorld</artifactId>    <!-- // product id 같은 거..? -->
+    <modelVersion>4.0.0</modelVersion>  <!-- // 정해져있음 바꾸면 안됨 -->
     <version>1.0</version>
     <packaging>jar</packaging>
     <build>
         <plugins>
-            <plugin>    
+            <plugin>    <!-- // maven compile에 해당 됨 -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
@@ -15,7 +15,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-            <plugin>
+            <plugin>    <!-- // maven package에 해당 됨  -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.0.2</version>
