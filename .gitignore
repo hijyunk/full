@@ -1,8 +1,6 @@
 # .env
 .env
 
-.vscode
-
 ## c
 c/*
 c/*.o
@@ -16,3 +14,8 @@ c/**/*
 
 ## java
 **/*.class
+
+## scala
+scala/**/project
+scala/**/target
+
